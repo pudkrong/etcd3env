@@ -1,14 +1,28 @@
 {
   "name": "etcd3env",
   "version": "1.0.0",
-  "description": "",
+  "description": "Extract key-pair values from etcd3.5 to env",
   "main": "./lib/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pudkrong/etcd3env.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pudkrong/etcd3env/issues"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "homepage": "https://github.com/pudkrong/etcd3env#readme",
+  "author": "Pisut Sritrakulchai <pudkrong@hotmail.com>",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "etcd3",
+    "env"
+  ],
+  "license": "MPL-2.0",
   "dependencies": {
     "etcd3": "^1.1.0"
   }
