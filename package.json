@@ -10,9 +10,6 @@
   "bugs": {
     "url": "https://github.com/pudkrong/etcd3env/issues"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com"
-  },
   "homepage": "https://github.com/pudkrong/etcd3env#readme",
   "author": "Pisut Sritrakulchai <pudkrong@hotmail.com>",
   "scripts": {
