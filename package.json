@@ -25,5 +25,9 @@
   "license": "MPL-2.0",
   "dependencies": {
     "etcd3": "^1.1.0"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {}
 }
